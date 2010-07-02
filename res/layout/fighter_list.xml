@@ -1,0 +1,10 @@
+<RelativeLayout android:layout_width="fill_parent" android:layout_height="fill_parent" xmlns:android="http://schemas.android.com/apk/res/android" android:id="@+id/fighter_listRelativeLayout">
+
+<ScrollView android:layout_height="fill_parent" android:layout_width="fill_parent" android:id="@+id/mainScrollView"><LinearLayout android:id="@+id/mainLinearLayout" android:orientation="horizontal" android:layout_height="fill_parent" android:layout_width="fill_parent" android:layout_marginTop="10dip"><LinearLayout android:id="@+id/leftLinearLayout" android:layout_weight="1" android:layout_width="fill_parent" android:layout_height="wrap_content" android:orientation="vertical">
+
+</LinearLayout><LinearLayout android:id="@+id/rightLinearLayout" android:layout_weight="1" android:layout_width="fill_parent" android:layout_height="wrap_content" android:orientation="vertical">
+</LinearLayout></LinearLayout></ScrollView>
+
+
+
+</RelativeLayout>
