@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	android:id="@+id/MainRelativeLayout" android:soundEffectsEnabled="true"
+	android:layout_height="fill_parent" android:layout_width="fill_parent">
+
+
+
+
+
+
+
+
+
+	<LinearLayout android:id="@+id/mainLinearLayout"
+		android:layout_width="fill_parent" android:orientation="horizontal"
+		android:layout_marginTop="10dip" android:layout_height="wrap_content">
+		<LinearLayout android:layout_height="wrap_content"
+			android:id="@+id/leftLinearLayout" android:layout_alignParentLeft="true"
+			android:layout_centerHorizontal="true" android:layout_width="fill_parent"
+			android:layout_weight="1">
+			<Button android:id="@+id/toFighterSelectScreenButton"
+				android:text="SelectFighter" android:layout_height="wrap_content"
+				android:layout_width="fill_parent"></Button>
+		</LinearLayout>
+
+
+	</LinearLayout>
+	<Button android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_below="@+id/mainLinearLayout" android:id="@+id/toTrainerButton" android:text="Training"></Button><Button android:layout_width="wrap_content"
+		android:layout_height="wrap_content" android:id="@+id/clearFightersButton"
+		android:text="Clear Fighters" android:layout_below="@+id/toTrainerButton" android:visibility="invisible" android:clickable="false"></Button>
+
+</RelativeLayout>

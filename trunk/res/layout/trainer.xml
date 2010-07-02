@@ -1,0 +1,76 @@
+
+
+<RelativeLayout android:id="@+id/RelativeLayout01"
+	xmlns:android="http://schemas.android.com/apk/res/android"
+	android:layout_height="wrap_content" android:layout_width="wrap_content">
+	<ScrollView android:id="@+id/ScrollView01"
+		android:layout_width="fill_parent" android:layout_height="wrap_content">
+		<LinearLayout android:id="@+id/LinearLayout01"
+			android:layout_height="fill_parent" android:layout_width="fill_parent">
+			<LinearLayout android:layout_height="wrap_content"
+				android:id="@+id/yourFighterLinearLayout" android:orientation="vertical"
+				android:layout_alignParentLeft="true" android:layout_width="fill_parent"
+				android:layout_weight="1">
+		
+		
+	<ImageButton android:layout_width="wrap_content" android:layout_height="wrap_content" android:id="@+id/yourFighterImageButton"></ImageButton>
+<TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:id="@+id/yourFighterNameTextView" android:text="IDK"
+android:textColor="#000"></TextView>
+				<TextView android:layout_width="wrap_content"
+					android:layout_height="wrap_content" android:id="@+id/yourLVLTextView"
+					android:text="LVL: 1" android:layout_marginTop="10dip" android:textColor="#000"></TextView>
+				<TextView android:layout_width="wrap_content"
+					android:layout_height="wrap_content" android:id="@+id/yourHPTextView"
+					android:text="HP: 100/100" android:textColor="#000"></TextView>
+				<TextView android:layout_width="wrap_content"
+					android:layout_height="wrap_content" android:id="@+id/yourPATextView"
+					android:text="PA: 10" android:textColor="#000"></TextView>
+				<TextView android:layout_width="wrap_content"
+					android:layout_height="wrap_content" android:text="PD: 10"
+					android:id="@+id/yourPDTextView" android:textColor="#000"></TextView>
+				<TextView android:layout_width="wrap_content"
+					android:layout_height="wrap_content" android:text="SA: 10"
+					android:id="@+id/yourSATextView" android:textColor="#000"></TextView>
+				<TextView android:layout_width="wrap_content"
+					android:layout_height="wrap_content" android:text="SD: 10"
+					android:id="@+id/yourSDTextView" android:textColor="#000"></TextView>
+			</LinearLayout>
+			<LinearLayout android:layout_height="wrap_content"
+				android:id="@+id/generatedFighterLinearLayout" android:orientation="vertical"
+				android:layout_alignParentRight="true" android:layout_weight="1"
+				android:layout_width="fill_parent">
+		
+		
+	<ImageButton android:layout_width="wrap_content" android:layout_height="wrap_content" android:id="@+id/opponentImageButton"></ImageButton>
+<TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:id="@+id/opponentNameTextView" android:text="LOL"
+android:textColor="#000"></TextView>
+				<TextView android:layout_width="wrap_content"
+					android:layout_height="wrap_content" android:id="@+id/opponentLVLTextView"
+					android:text="LVL: 1" android:layout_marginTop="10dip" android:textColor="#000"></TextView>
+				<TextView android:layout_width="wrap_content"
+					android:layout_height="wrap_content" android:id="@+id/opponentHPTextView"
+					android:text="HP: 100/100" android:textColor="#000"></TextView>
+				<TextView android:layout_width="wrap_content"
+					android:layout_height="wrap_content" android:id="@+id/opponentPATextView"
+					android:text="PA: ???" android:textColor="#000"></TextView>
+				<TextView android:layout_width="wrap_content"
+					android:layout_height="wrap_content" android:id="@+id/opponentPDTextView"
+					android:text="PD: ???" android:textColor="#000"></TextView>
+				<TextView android:layout_width="wrap_content"
+					android:layout_height="wrap_content" android:id="@+id/opponentSATextView"
+					android:text="SA: ???" android:textColor="#000"></TextView>
+				<TextView android:layout_width="wrap_content"
+					android:layout_height="wrap_content" android:id="@+id/opponentSDTextView"
+					android:text="SD: ???" android:textColor="#000"	></TextView>
+			</LinearLayout>
+		</LinearLayout>
+	</ScrollView>
+
+
+
+	
+	<LinearLayout android:id="@+id/LinearLayout02" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_below="@+id/ScrollView01" android:orientation="vertical"><Button android:layout_width="wrap_content" android:layout_height="wrap_content" android:id="@+id/usePAButton" android:text="Physical Attack" android:layout_marginTop="20dip"></Button><Button android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="Special Attack" android:id="@+id/useSAButton"></Button></LinearLayout>
+	
+
+<ScrollView android:id="@+id/ScrollView02" android:layout_below="@+id/ScrollView01" android:layout_height="fill_parent" android:layout_width="wrap_content" android:layout_marginLeft="10dip"><TextView android:id="@+id/consoleTextView" android:layout_width="fill_parent" android:layout_height="fill_parent"></TextView></ScrollView>
+</RelativeLayout>

@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    
+    <string name="app_name">My Ultimate Fighter</string>
+<string name="lvl">Level:</string>
+<string name="hp">HP:</string>
+<string name="pa">Physical Attack:</string>
+<string name="pd">Physical Defense:</string>
+<string name="ma">Magic Attack:</string><string name="md">Magic Defense:</string>
+
+</resources>
